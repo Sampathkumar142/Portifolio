@@ -11,6 +11,9 @@ const NavBar = () => {
     const navbarmenu = () => {
         setmenu(!isOpen);
     };
+    const handleClick =() =>{
+        setmenu(!isOpen);
+    }
     const isOpened=(isOpen)=>{
         let classes = 'ph:relative flex ph:flex ph:justify-end text-xl ph:flex-row flex-col justify-center items-center absolute ph:h-[10vh] h-[90vh] w-full';
         if(!isOpen){
@@ -25,9 +28,9 @@ const NavBar = () => {
                 <h1 className="m-4 h-[2rem] text-xl">Sampath Logo</h1>
                 <div className={isOpened(isOpen)}>
                     <ul className="flex mr-3 ph:justify-around ph:flex-row ph:w-[40%] flex-col items-center justify-center ph:text-Base text-xl">
-                        <li className='mx-1 my-4'><Link to="">Home</Link></li>
-                        <li className='mx-1 my-4'><Link to="/about">About</Link></li>
-                        <li className='mx-1 my-4'><Link to="contact">Contact</Link></li>
+                        <li onClick={handleClick} className='mx-1 my-4'><Link to="">Home</Link></li>
+                        <li onClick={handleClick} className='mx-1 my-4'><Link to="/about">About</Link></li>
+                        <li onClick={handleClick} className='mx-1 my-4'><Link to="contact">Contact</Link></li>
                     </ul>
                     <a  download href="resume.pdf">
                         <button className='mr-4 p-2 mt-2 rounded-lg border border-solid border-gray-300 ph:text-base text-xl'>
