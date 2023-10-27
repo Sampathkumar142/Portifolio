@@ -5,7 +5,7 @@
 *{
   padding: 0;
   margin: 0;
-  font-family:'Brush Script MT', cursive ;
+  font-family:'Brush Script MT' ;
   background-color: #160a2b;
   color: aliceblue;
   
@@ -23,10 +23,7 @@ body{
   background-color: #000300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
 
 .icon{
   @apply w-[50px] h-[50px];
