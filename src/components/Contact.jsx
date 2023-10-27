@@ -4,7 +4,7 @@ import Footer from './Footer';
 const Contact = () => {
     return ( 
     <>
-        <div className="w-full h-80vh mt-[5%] flex items-center  flex-col">
+        <div className="w-full ph:h-80vh ph:mt-[5%] flex items-center  flex-col ">
         <h2 className='text-2xl mx-4 my-3'>Contact Me</h2>
         <p className='text-sm'> Wanna connect me! whisper me</p>
         <form className='mx-4 flex flex-col  justify-between'>

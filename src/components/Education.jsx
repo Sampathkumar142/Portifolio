@@ -5,7 +5,7 @@ import Skills from './Skills';
 
 export default function Education() {
   return (
-    <section className='grid grid-cols-2 gap-4 w-full h-[80vh]'>
+    <section className='ph:grid ph:grid-cols-2 ph:gap-4  overflow-hidden'>
         <Qualification></Qualification>
         <Skills></Skills>
     </section>
