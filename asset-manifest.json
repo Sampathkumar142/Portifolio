@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portifolio/static/css/main.b78ba35a.css",
+    "main.js": "/Portifolio/static/js/main.c5ec1719.js",
+    "static/media/bg.JPG": "/Portifolio/static/media/bg.87c002a676de7083f446.JPG",
+    "static/media/bio.png": "/Portifolio/static/media/bio.6b8f3a1d96cde023f20f.png",
+    "static/media/datascience.svg": "/Portifolio/static/media/datascience.8351a645e053f361482e99707b013c8b.svg",
+    "static/media/softwareEng.svg": "/Portifolio/static/media/softwareEng.ba43dc194bd8fc4be1ffbd17327d599d.svg",
+    "static/media/cloud.svg": "/Portifolio/static/media/cloud.897f9d50d198df3246a0e07d54f06904.svg",
+    "static/media/softwaredev.svg": "/Portifolio/static/media/softwaredev.41459930456d0690f624fd06354701d0.svg",
+    "index.html": "/Portifolio/index.html",
+    "main.b78ba35a.css.map": "/Portifolio/static/css/main.b78ba35a.css.map",
+    "main.c5ec1719.js.map": "/Portifolio/static/js/main.c5ec1719.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b78ba35a.css",
+    "static/js/main.c5ec1719.js"
+  ]
+}
